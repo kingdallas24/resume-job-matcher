@@ -1,19 +1,33 @@
-# Resume ↔ Job Matcher
 
-A full-stack NLP application that analyzes how well a resume matches a job description.
+---
 
-## Features (MVP)
-- Resume ↔ job similarity score
-- Keyword coverage & gaps
-- Actionable rewrite suggestions
+## Prerequisites
 
-## Tech Stack
-- Frontend: React + TypeScript
-- Backend: FastAPI (Python)
-- Database: PostgreSQL
-- Infra: Docker Compose
+Make sure these are installed **before doing anything**:
 
-## Local Development
+- Docker Desktop (running)
+- VS Code
+- Git
+
+---
+
+## How to Run the Project (Step-by-Step)
+
+### 1️⃣ Open the project in VS Code
+
+- Open **VS Code**
+- Click **File → Open Folder**
+- Select the `resume-job-matcher` folder
+
+---
+
+### 2️⃣ Start everything with Docker Compose
+
+Open **VS Code Terminal**:
+- Menu → **Terminal → New Terminal**
+
+Run:
+
 ```bash
 docker compose up --build
 
